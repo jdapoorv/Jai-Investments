@@ -126,6 +126,7 @@ section span#comments {
 div.container p#about-content {
     font-size: 1.3em;
     margin: 30px auto 0px;
+    text-align: justify;
 }
 
 /* div.container img#about-image {
@@ -188,7 +189,15 @@ div.container p#about-content {
     font-size: 20px;
 }
 
-div.container div#signature {
+div.container div#signature1 {
+    float: left;
+    margin-bottom: 20px;
+    font-family: serif;
+    font-style: initial;
+    font-size: 18px;
+}
+
+div.container div#signature2 {
     float: right;
     margin-bottom: 20px;
     font-family: serif;
@@ -226,6 +235,13 @@ div.container div#signature {
     }
     div.container p#about-content {
         font-size: 18px;
+    }
+    div.container div#signature1 {
+        font-size: 14px;
+    }
+    
+    div.container div#signature2 {
+        font-size: 14px;
     }
 }
 
